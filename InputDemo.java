@@ -16,7 +16,7 @@ class InputDemo {
         System.out.print("Enter a single word: ");
         String word = sc.next();
 
-        sc.nextLine(); // 🔴 IMPORTANT: clear buffer
+        sc.nextLine(); // 🔴 IMPORTANT: clear buffero
 
         // reading full line string
         System.out.print("Enter a full sentence: ");
