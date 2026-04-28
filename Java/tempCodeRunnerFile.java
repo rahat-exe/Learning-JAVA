@@ -1,0 +1,3 @@
+interface ClassMethods{
+    void display();
+}
