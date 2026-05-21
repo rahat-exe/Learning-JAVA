@@ -15,9 +15,10 @@ class Teacher extends Department {
     }
 }
 class Students extends Teacher {
-    Students(String departmentName, String teacherName,String studentName) {
+    String studentName;
+    Students(String departmentName, String teacherName,String Name) {
         super(departmentName, teacherName);
-        this.teacherName = teacherName;
+        studentName = Name;
     }
 }
 
@@ -30,6 +31,6 @@ public class Multilevel {
         Students s1 = new Students("MCA", "Daisy Maam", "Rahat");
         System.out.println(s1.departmentName);
         System.out.println(s1.teacherName);
-        System.out.println(s1.name);
+        System.out.println(s1.studentName);
     }
 }

@@ -1,7 +1,7 @@
 public class Example7 {
     public static void main(String[] args) {
         // int result = 12 / 0;
-        // System.out.println(result);  Will cause exception and program will terminate
+        // System.out.println(result);  // Will cause exception and program will terminate
         try {
             int result = 12/0;
             System.out.println(result);

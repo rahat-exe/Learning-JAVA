@@ -17,18 +17,18 @@ public class Example3 {
     // if(age < 18){
     //     throw new ArithmeticException();
     // }
-    // if(age < 18){
-    //     throw new ArithmeticException("Less then 18, unable to vote");
-    // }
-    try {
-        if(age < 18){
-            throw new Exception("Less then 18, unable to vote");
-        }
-    } catch (Exception e) {
-        System.out.println(e);
-        System.out.println(e.getLocalizedMessage());
-
+    if(age < 18){
+        throw new ArithmeticException("Less then 18, unable to vote");
     }
+    // try {
+    //     if(age < 18){
+    //         throw new Exception("Less then 18, unable to vote");
+    //     }
+    // } catch (Exception e) {
+    //     System.out.println(e);
+    //     System.out.println(e.getLocalizedMessage());
+
+    // }
 
     // if(age < 18){
     //     throw new Exception("Less than 18");

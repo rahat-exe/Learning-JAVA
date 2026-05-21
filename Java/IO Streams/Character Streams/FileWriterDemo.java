@@ -1,7 +1,7 @@
 import java.io.FileReader;
 import java.io.FileWriter;
 
-public class FIleWriterDemo {
+class FileWriterDemo {
     public static void main(String[] args) throws Exception {
         FileWriter f = new FileWriter("xyz.txt");
         String s = "Hello World";

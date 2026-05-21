@@ -3,6 +3,7 @@ import java.awt.event.*;
 
 
 
+
 public class Example {
     public static void main(String[] args) {
         Frame f = new Frame("Example AWT");
@@ -31,7 +32,13 @@ public class Example {
         ch.add("Mango");
         ch.add("Lichi");
 
-
+        List list = new List(4, false); 
+        list.add("Option 1");
+        list.add("Option 2");
+        list.add("Option 3");
+        list.add("Option 4");
+        
+        
         f.add(l1);
         f.add(t1);
         f.add(b1);
@@ -41,6 +48,7 @@ public class Example {
         f.add(c4);
         f.add(c5);
         f.add(ch);
+        f.add(list);
 
         // f.addWindowListener(new WindowAdapter() {
 

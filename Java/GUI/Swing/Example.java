@@ -26,8 +26,11 @@ public class Example {
 
         String data[] ={"apple","mango","lichi"};
         JComboBox cb = new JComboBox(data);
-       
 
+        // String items[] = { "Java", "Python", "C", "C++" };
+        String[] items = { "Java", "Python", "C", "C++" };
+
+        JList l = new JList(items);
 
         f.add(l1);
         f.add(t1);
@@ -38,6 +41,7 @@ public class Example {
         f.add(r1);
         f.add(r2);
         f.add(cb);
+        f.add(l);
 
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
