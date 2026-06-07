@@ -22,7 +22,7 @@ public class SwingDemo {
         p1.add(c2);
 
         JCheckBox c3 = new JCheckBox("Male");
-        JCheckBox c4 = new JCheckBox("Female");
+        JRadioButton c4 = new JRadioButton("Female");
         ButtonGroup g = new ButtonGroup();
         g.add(c3);
         g.add(c4);

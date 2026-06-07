@@ -61,5 +61,5 @@ public class Arrays {
     }
 
     int[] sdfghj = new int[10];
-    int[][] dfghjk = new int[3][5]
+    int[][] dfghjk = new int[3][5];
 }
